@@ -1,4 +1,4 @@
-run_all: set_up run_21 run_22 run_23 test_batch_size test_learning_rate
+run_all: set_up run_23 test_batch_size test_learning_rate test_decreasing_learning_rate
 
 run_21: FORCE
 	python main.py --model LazyNet --epochs 50 --logdir run_21 --cuda True
@@ -29,6 +29,9 @@ test_learning_rate: FORCE
 	python main.py --lr 0.01 --model CoolNet --epoch 50 --logdir lr_0.01 --cuda True
 
 	python main.py --lr 0.0001 --model CoolNet --epoch 50 --logdir lr_0.0001 --cuda True
+
+test_decreasing_learning_rate: FORCE
+	python main.py --model CoolNet --epoch 150
 
 set_up: FORCE
 	mkdir -p records/
