@@ -7,7 +7,14 @@ import models
 import torch
 import pdb
 import os
-import tensorflow as tf
+import tensorflow
+
+
+def createLabelMatrix(labels):
+    matrix = np.zeros((labels.shape[0], 10))
+    for i in range(len(labels)):
+        matrix[i][labels[i]] = 1
+    return torch.FloatTensor(matrix)
 
 def train(net, dataloader, optimizer, criterion, epoch, device):
 
@@ -16,7 +23,9 @@ def train(net, dataloader, optimizer, criterion, epoch, device):
 
     for i, data in enumerate(tqdm(dataloader.trainloader, 0)):
         # get the inputs
-        inputs, labels = data
+        #inputs, labels = data
+        inputs, l = data
+        labels = createLabelMatrix(l)
         inputs, labels = inputs.to(device), labels.to(device)
 
         # zero the parameter gradients
@@ -24,16 +33,8 @@ def train(net, dataloader, optimizer, criterion, epoch, device):
 
         # forward + backward + optimize
         outputs = net(inputs)
-        # For Cross Entropy
         loss = criterion(outputs, labels)
         loss.backward()
-        # For MSE
-        #tmp = criterion(outputs, labels.float())
-        #loss = np.zeros(1, tmp.shape[0])
-        #for i in range(len(tmp.shape[0])):
-        #    loss[i][tmp[i]] = 1
-        #loss = tf.convert_to_tensor(loss, np.float32)
-        
         optimizer.step()
 
         # print statistics
