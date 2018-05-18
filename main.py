@@ -5,6 +5,8 @@ import numpy as np
 import models
 import torch
 import pdb
+from tqdm import trange
+from tqdm import tqdm
 
 
 def train(net, dataloader, optimizer, criterion, epoch):
@@ -12,7 +14,7 @@ def train(net, dataloader, optimizer, criterion, epoch):
     running_loss = 0.0
     total_loss = 0.0
 
-    for i, data in enumerate(dataloader.trainloader, 0):
+    for i, data in enumerate(tqdm(dataloader.trainloader), 0):
         # get the inputs
         inputs, labels = data
 
@@ -27,10 +29,10 @@ def train(net, dataloader, optimizer, criterion, epoch):
 
         # print statistics
         running_loss += loss.item()
-        total_loss += loss.item()
         if (i + 1) % 2000 == 0:    # print every 2000 mini-batches
             net.log('[%d, %5d] loss: %.3f' %
                   (epoch + 1, i + 1, running_loss / 2000))
+            total_loss += running_loss
             running_loss = 0.0
 
     net.log('Final Summary:   loss: %.3f' %
@@ -63,7 +65,7 @@ def test(net, dataloader, tag=''):
             outputs = net(images)
             _, predicted = torch.max(outputs, 1)
             c = (predicted == labels).squeeze()
-            for i in range(len(labels)):
+            for i in range(4):
                 label = labels[i]
                 class_correct[label] += c[i].item()
                 class_total[label] += 1
@@ -85,7 +87,7 @@ def main():
     criterion = net.criterion()
     optimizer = net.optimizer()
 
-    for epoch in range(args.epochs):  # loop over the dataset multiple times
+    for epoch in trange(args.epochs):  # loop over the dataset multiple times
         net.adjust_learning_rate(optimizer, epoch, args)
         train(net, cifarLoader, optimizer, criterion, epoch)
         if epoch % 1 == 0: # Comment out this part if you want a faster training

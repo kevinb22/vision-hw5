@@ -1,11 +1,13 @@
 import matplotlib.pyplot as plt
 import pdb
 import argparse
+import os
 
 
 def argParser():
 	parser = argparse.ArgumentParser(description='PyTorch Plot Progress')
 	parser.add_argument('--file_name', default='')
+	parser.add_argument('--output', default='')
 	return parser.parse_args()
 
 
@@ -26,9 +28,10 @@ def main():
 	
 	plt.plot(train_accuracy)
 	plt.plot(test_accuracy)
-	plt.show()
+	plt.savefig(args.output + "/train_test.png")
+	plt.clf()
 	plt.plot(train_loss)
-	plt.show()
+	plt.savefig(args.output + "/train_loss.png")
 
 
 
