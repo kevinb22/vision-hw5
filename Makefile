@@ -13,13 +13,11 @@ run_23: FORCE
 test_batch_size: FORCE
 	python main.py --model CoolNet --epoch 50 --batchSize 16 --logdir batch_16 --cuda True
 
-	python main.py --model CoolNet --epoch 50 --batchSize 32 --logdir batch_32 --cuda True
-
 	python main.py --model CoolNet --epoch 50 --batchSize 64 --logdir batch_64 --cuda True
 
-	python main.py --model CoolNet --epoch 50 --batchSize 128 --logdir batch_128 --cuda True
-
 	python main.py --model CoolNet --epoch 50 --batchSize 256 --logdir batch_256 --cuda True
+
+	python main.py --model CoolNet --epoch 50 --batchSize 64 --logdir batch_128 --cuda True
 
 test_learning_rate: FORCE
 	python main.py --lr 10 --model CoolNet --epoch 50  --logdir lr_10 --cuda True

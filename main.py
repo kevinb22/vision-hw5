@@ -7,6 +7,7 @@ import models
 import torch
 import pdb
 import os
+import tensorflow as tf
 
 def train(net, dataloader, optimizer, criterion, epoch, device):
 
@@ -23,8 +24,16 @@ def train(net, dataloader, optimizer, criterion, epoch, device):
 
         # forward + backward + optimize
         outputs = net(inputs)
+        # For Cross Entropy
         loss = criterion(outputs, labels)
         loss.backward()
+        # For MSE
+        #tmp = criterion(outputs, labels.float())
+        #loss = np.zeros(1, tmp.shape[0])
+        #for i in range(len(tmp.shape[0])):
+        #    loss[i][tmp[i]] = 1
+        #loss = tf.convert_to_tensor(loss, np.float32)
+        
         optimizer.step()
 
         # print statistics
