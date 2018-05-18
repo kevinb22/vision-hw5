@@ -1,22 +1,22 @@
 from utils import argParser
 from dataloader import CifarLoader
 import matplotlib.pyplot as plt
+from tqdm import tqdm, trange
 import numpy as np
 import models
 import torch
 import pdb
-from tqdm import trange
-from tqdm import tqdm
+import os
 
-
-def train(net, dataloader, optimizer, criterion, epoch):
+def train(net, dataloader, optimizer, criterion, epoch, device):
 
     running_loss = 0.0
     total_loss = 0.0
 
-    for i, data in enumerate(tqdm(dataloader.trainloader), 0):
+    for i, data in enumerate(tqdm(dataloader.trainloader, 0)):
         # get the inputs
         inputs, labels = data
+        inputs, labels = inputs.to(device), labels.to(device)
 
         # zero the parameter gradients
         optimizer.zero_grad()
@@ -39,7 +39,7 @@ def train(net, dataloader, optimizer, criterion, epoch):
           (total_loss / i))
 
 
-def test(net, dataloader, tag=''):
+def test(net, dataloader, device, tag=''):
     correct = 0
     total = 0
     if tag == 'Train':
@@ -49,6 +49,7 @@ def test(net, dataloader, tag=''):
     with torch.no_grad():
         for data in dataTestLoader:
             images, labels = data
+            images, labels = images.to(device), labels.to(device)
             outputs = net(images)
             _, predicted = torch.max(outputs.data, 1)
             total += labels.size(0)
@@ -62,6 +63,7 @@ def test(net, dataloader, tag=''):
     with torch.no_grad():
         for data in dataTestLoader:
             images, labels = data
+            images, labels = images.to(device), labels.to(device)
             outputs = net(images)
             _, predicted = torch.max(outputs, 1)
             c = (predicted == labels).squeeze()
@@ -80,19 +82,23 @@ def main():
     args = argParser()
 
     cifarLoader = CifarLoader(args)
-    net = args.model()
+    if not os.path.exists(args.logdir):
+        os.makedirs(args.logdir)
+    
+    device = torch.device("cuda" if args.cuda else "cpu")
+    net = args.model(args.logdir, device).to(device)
     print('The log is recorded in ')
     print(net.logFile.name)
 
-    criterion = net.criterion()
+    criterion = net.criterion().to(device)
     optimizer = net.optimizer()
 
     for epoch in trange(args.epochs):  # loop over the dataset multiple times
         net.adjust_learning_rate(optimizer, epoch, args)
-        train(net, cifarLoader, optimizer, criterion, epoch)
+        train(net, cifarLoader, optimizer, criterion, epoch, device)
         if epoch % 1 == 0: # Comment out this part if you want a faster training
-            test(net, cifarLoader, 'Train')
-            test(net, cifarLoader, 'Test')
+            test(net, cifarLoader, device, 'Train')
+            test(net, cifarLoader, device, 'Test')
 
 
     print('The log is recorded in ')
