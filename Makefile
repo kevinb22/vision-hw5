@@ -1,4 +1,4 @@
-run_all: set_up run_23 test_batch_size test_learning_rate test_decreasing_learning_rate
+run_all: set_up run_21 run_22 run_23 test_batch_size test_learning_rate test_decreasing_learning_rate
 
 run_21: FORCE
 	python main.py --model LazyNet --epochs 50 --logdir run_21 --cuda True

@@ -23,9 +23,9 @@ def train(net, dataloader, optimizer, criterion, epoch, device):
 
     for i, data in enumerate(tqdm(dataloader.trainloader, 0)):
         # get the inputs
-        #inputs, labels = data
-        inputs, l = data
-        labels = createLabelMatrix(l)
+        inputs, labels = data
+        #inputs, l = data
+        #labels = createLabelMatrix(l)
         inputs, labels = inputs.to(device), labels.to(device)
 
         # zero the parameter gradients
@@ -106,7 +106,7 @@ def main():
     for epoch in trange(args.epochs):  # loop over the dataset multiple times
         net.adjust_learning_rate(optimizer, epoch, args)
         train(net, cifarLoader, optimizer, criterion, epoch, device)
-        if epoch % 1 == 0: # Comment out this part if you want a faster training
+        if epoch % 10 == 0: # Comment out this part if you want a faster training
             test(net, cifarLoader, device, 'Train')
             test(net, cifarLoader, device, 'Test')
 
