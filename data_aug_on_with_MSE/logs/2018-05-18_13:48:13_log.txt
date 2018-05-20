@@ -1,0 +1,640 @@
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 10 %
+Train Accuracy of plane : 100 %
+Train Accuracy of   car :  0 %
+Train Accuracy of  bird :  0 %
+Train Accuracy of   cat :  0 %
+Train Accuracy of  deer :  0 %
+Train Accuracy of   dog :  1 %
+Train Accuracy of  frog :  0 %
+Train Accuracy of horse :  0 %
+Train Accuracy of  ship :  0 %
+Train Accuracy of truck :  0 %
+Test Accuracy of the network: 10 %
+Test Accuracy of plane : 100 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird :  0 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer :  0 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog :  0 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship :  0 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 14 %
+Train Accuracy of plane : 32 %
+Train Accuracy of   car : 18 %
+Train Accuracy of  bird :  4 %
+Train Accuracy of   cat :  1 %
+Train Accuracy of  deer :  5 %
+Train Accuracy of   dog : 10 %
+Train Accuracy of  frog : 19 %
+Train Accuracy of horse : 14 %
+Train Accuracy of  ship : 18 %
+Train Accuracy of truck :  3 %
+Test Accuracy of the network: 11 %
+Test Accuracy of plane : 87 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird :  0 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer :  0 %
+Test Accuracy of   dog : 40 %
+Test Accuracy of  frog :  0 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship :  0 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 15 %
+Train Accuracy of plane : 32 %
+Train Accuracy of   car : 16 %
+Train Accuracy of  bird :  3 %
+Train Accuracy of   cat :  0 %
+Train Accuracy of  deer : 10 %
+Train Accuracy of   dog :  4 %
+Train Accuracy of  frog : 32 %
+Train Accuracy of horse :  8 %
+Train Accuracy of  ship : 28 %
+Train Accuracy of truck :  8 %
+Test Accuracy of the network: 12 %
+Test Accuracy of plane : 75 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird :  0 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer :  7 %
+Test Accuracy of   dog : 26 %
+Test Accuracy of  frog : 11 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship :  0 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 16 %
+Train Accuracy of plane : 47 %
+Train Accuracy of   car : 21 %
+Train Accuracy of  bird :  3 %
+Train Accuracy of   cat :  1 %
+Train Accuracy of  deer :  8 %
+Train Accuracy of   dog :  6 %
+Train Accuracy of  frog : 35 %
+Train Accuracy of horse : 12 %
+Train Accuracy of  ship : 21 %
+Train Accuracy of truck :  6 %
+Test Accuracy of the network: 12 %
+Test Accuracy of plane : 75 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird :  0 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 23 %
+Test Accuracy of   dog : 13 %
+Test Accuracy of  frog : 22 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship :  0 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 17 %
+Train Accuracy of plane : 44 %
+Train Accuracy of   car : 25 %
+Train Accuracy of  bird :  0 %
+Train Accuracy of   cat :  3 %
+Train Accuracy of  deer : 10 %
+Train Accuracy of   dog :  2 %
+Train Accuracy of  frog : 42 %
+Train Accuracy of horse : 21 %
+Train Accuracy of  ship : 18 %
+Train Accuracy of truck :  9 %
+Test Accuracy of the network: 13 %
+Test Accuracy of plane : 75 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird :  0 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 23 %
+Test Accuracy of   dog :  6 %
+Test Accuracy of  frog : 22 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship :  4 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 18 %
+Train Accuracy of plane : 43 %
+Train Accuracy of   car : 26 %
+Train Accuracy of  bird :  4 %
+Train Accuracy of   cat :  1 %
+Train Accuracy of  deer : 13 %
+Train Accuracy of   dog :  1 %
+Train Accuracy of  frog : 40 %
+Train Accuracy of horse : 23 %
+Train Accuracy of  ship : 17 %
+Train Accuracy of truck :  7 %
+Test Accuracy of the network: 14 %
+Test Accuracy of plane : 62 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird :  0 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 23 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 22 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship :  4 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 18 %
+Train Accuracy of plane : 40 %
+Train Accuracy of   car : 24 %
+Train Accuracy of  bird :  2 %
+Train Accuracy of   cat :  0 %
+Train Accuracy of  deer : 17 %
+Train Accuracy of   dog :  2 %
+Train Accuracy of  frog : 39 %
+Train Accuracy of horse : 27 %
+Train Accuracy of  ship : 27 %
+Train Accuracy of truck :  5 %
+Test Accuracy of the network: 14 %
+Test Accuracy of plane : 62 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird :  0 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 30 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 27 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 14 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 19 %
+Train Accuracy of plane : 37 %
+Train Accuracy of   car : 36 %
+Train Accuracy of  bird :  1 %
+Train Accuracy of   cat :  0 %
+Train Accuracy of  deer : 14 %
+Train Accuracy of   dog :  2 %
+Train Accuracy of  frog : 36 %
+Train Accuracy of horse : 18 %
+Train Accuracy of  ship : 26 %
+Train Accuracy of truck : 13 %
+Test Accuracy of the network: 15 %
+Test Accuracy of plane : 50 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird :  7 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 30 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 27 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 23 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 19 %
+Train Accuracy of plane : 34 %
+Train Accuracy of   car : 36 %
+Train Accuracy of  bird :  3 %
+Train Accuracy of   cat :  0 %
+Train Accuracy of  deer : 13 %
+Train Accuracy of   dog :  5 %
+Train Accuracy of  frog : 31 %
+Train Accuracy of horse : 27 %
+Train Accuracy of  ship : 25 %
+Train Accuracy of truck : 15 %
+Test Accuracy of the network: 16 %
+Test Accuracy of plane : 43 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird :  7 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 38 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 33 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 38 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 19 %
+Train Accuracy of plane : 48 %
+Train Accuracy of   car : 38 %
+Train Accuracy of  bird :  7 %
+Train Accuracy of   cat :  0 %
+Train Accuracy of  deer : 16 %
+Train Accuracy of   dog :  4 %
+Train Accuracy of  frog : 41 %
+Train Accuracy of horse : 23 %
+Train Accuracy of  ship : 27 %
+Train Accuracy of truck : 16 %
+Test Accuracy of the network: 17 %
+Test Accuracy of plane : 31 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird : 23 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 46 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 33 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 33 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 20 %
+Train Accuracy of plane : 41 %
+Train Accuracy of   car : 21 %
+Train Accuracy of  bird :  6 %
+Train Accuracy of   cat :  1 %
+Train Accuracy of  deer : 26 %
+Train Accuracy of   dog :  0 %
+Train Accuracy of  frog : 39 %
+Train Accuracy of horse : 18 %
+Train Accuracy of  ship : 29 %
+Train Accuracy of truck : 18 %
+Test Accuracy of the network: 18 %
+Test Accuracy of plane : 25 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird : 15 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 53 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 33 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 38 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 20 %
+Train Accuracy of plane : 34 %
+Train Accuracy of   car : 30 %
+Train Accuracy of  bird :  9 %
+Train Accuracy of   cat :  0 %
+Train Accuracy of  deer : 17 %
+Train Accuracy of   dog :  4 %
+Train Accuracy of  frog : 41 %
+Train Accuracy of horse : 13 %
+Train Accuracy of  ship : 24 %
+Train Accuracy of truck : 14 %
+Test Accuracy of the network: 18 %
+Test Accuracy of plane : 25 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird : 15 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 61 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 33 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 38 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 20 %
+Train Accuracy of plane : 41 %
+Train Accuracy of   car : 26 %
+Train Accuracy of  bird :  9 %
+Train Accuracy of   cat :  0 %
+Train Accuracy of  deer : 14 %
+Train Accuracy of   dog :  6 %
+Train Accuracy of  frog : 30 %
+Train Accuracy of horse : 23 %
+Train Accuracy of  ship : 22 %
+Train Accuracy of truck : 20 %
+Test Accuracy of the network: 18 %
+Test Accuracy of plane : 25 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird : 15 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 61 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 44 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 47 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 20 %
+Train Accuracy of plane : 45 %
+Train Accuracy of   car : 33 %
+Train Accuracy of  bird :  9 %
+Train Accuracy of   cat :  0 %
+Train Accuracy of  deer : 20 %
+Train Accuracy of   dog :  4 %
+Train Accuracy of  frog : 25 %
+Train Accuracy of horse : 22 %
+Train Accuracy of  ship : 19 %
+Train Accuracy of truck : 27 %
+Test Accuracy of the network: 18 %
+Test Accuracy of plane : 25 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird : 15 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 61 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 44 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 42 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 21 %
+Train Accuracy of plane : 36 %
+Train Accuracy of   car : 29 %
+Train Accuracy of  bird : 15 %
+Train Accuracy of   cat :  1 %
+Train Accuracy of  deer : 17 %
+Train Accuracy of   dog : 10 %
+Train Accuracy of  frog : 29 %
+Train Accuracy of horse : 15 %
+Train Accuracy of  ship : 27 %
+Train Accuracy of truck : 24 %
+Test Accuracy of the network: 18 %
+Test Accuracy of plane : 25 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird : 23 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 61 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 50 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 42 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 21 %
+Train Accuracy of plane : 35 %
+Train Accuracy of   car : 26 %
+Train Accuracy of  bird : 11 %
+Train Accuracy of   cat :  0 %
+Train Accuracy of  deer : 25 %
+Train Accuracy of   dog :  3 %
+Train Accuracy of  frog : 29 %
+Train Accuracy of horse : 23 %
+Train Accuracy of  ship : 32 %
+Train Accuracy of truck : 28 %
+Test Accuracy of the network: 19 %
+Test Accuracy of plane : 25 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird : 23 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 53 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 50 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 42 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 21 %
+Train Accuracy of plane : 33 %
+Train Accuracy of   car : 33 %
+Train Accuracy of  bird :  9 %
+Train Accuracy of   cat :  0 %
+Train Accuracy of  deer : 24 %
+Train Accuracy of   dog :  5 %
+Train Accuracy of  frog : 50 %
+Train Accuracy of horse : 24 %
+Train Accuracy of  ship : 24 %
+Train Accuracy of truck : 24 %
+Test Accuracy of the network: 19 %
+Test Accuracy of plane : 25 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird : 15 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 53 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 44 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 42 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 21 %
+Train Accuracy of plane : 46 %
+Train Accuracy of   car : 29 %
+Train Accuracy of  bird : 17 %
+Train Accuracy of   cat :  0 %
+Train Accuracy of  deer : 17 %
+Train Accuracy of   dog :  8 %
+Train Accuracy of  frog : 45 %
+Train Accuracy of horse : 20 %
+Train Accuracy of  ship : 29 %
+Train Accuracy of truck : 30 %
+Test Accuracy of the network: 19 %
+Test Accuracy of plane : 25 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird : 15 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 53 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 44 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 42 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 22 %
+Train Accuracy of plane : 47 %
+Train Accuracy of   car : 23 %
+Train Accuracy of  bird : 12 %
+Train Accuracy of   cat :  0 %
+Train Accuracy of  deer : 17 %
+Train Accuracy of   dog :  8 %
+Train Accuracy of  frog : 35 %
+Train Accuracy of horse : 18 %
+Train Accuracy of  ship : 23 %
+Train Accuracy of truck : 28 %
+Test Accuracy of the network: 19 %
+Test Accuracy of plane : 25 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird : 23 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 53 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 44 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 42 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Train Accuracy of the network: 22 %
+Train Accuracy of plane : 47 %
+Train Accuracy of   car : 29 %
+Train Accuracy of  bird : 15 %
+Train Accuracy of   cat :  1 %
+Train Accuracy of  deer : 17 %
+Train Accuracy of   dog :  9 %
+Train Accuracy of  frog : 37 %
+Train Accuracy of horse : 21 %
+Train Accuracy of  ship : 28 %
+Train Accuracy of truck : 25 %
+Test Accuracy of the network: 19 %
+Test Accuracy of plane : 25 %
+Test Accuracy of   car :  0 %
+Test Accuracy of  bird : 23 %
+Test Accuracy of   cat :  0 %
+Test Accuracy of  deer : 53 %
+Test Accuracy of   dog :  0 %
+Test Accuracy of  frog : 44 %
+Test Accuracy of horse :  0 %
+Test Accuracy of  ship : 47 %
+Test Accuracy of truck :  0 %
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000
+Final Summary:   loss: 0.000

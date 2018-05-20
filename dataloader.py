@@ -10,12 +10,12 @@ class CifarLoader(object):
 		transform = transforms.Compose(
 		    [
 		     # TODO: Add data augmentations here
-				 		transforms.RandomHorizontalFlip(), # data augmentation: random horizontal flip
-						transforms.RandomVerticalFlip(), # data augmentation: random vertical flip
-						transforms.RandomRotation(degrees=180),
-						transforms.ColorJitter(brightness=0.5, contrast=0.5, saturation=0.5, hue=0.5),
+				 #		transforms.RandomHorizontalFlip(), # data augmentation: random horizontal flip
+			 	 #		transforms.RandomVerticalFlip(), # data augmentation: random vertical flip
+				 #		transforms.RandomRotation(degrees=180),
+				 #		transforms.ColorJitter(brightness=0.5, contrast=0.5, saturation=0.5, hue=0.5),
             transforms.ToTensor(),
-            transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+		        transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)), 
 		     ])
 
 		transform_test = transforms.Compose([
