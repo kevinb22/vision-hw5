@@ -29,8 +29,6 @@ class BaseModel(nn.Module):
         return optim.SGD(self.parameters(), lr=0.001)
 
     def adjust_learning_rate(self, optimizer, epoch, args):
-        #if epoch != 0 and epoch % 50 == 0:
-        #    args.lr = args.lr * .9
         lr = args.lr # TODO: Implement decreasing learning rate's rules
         lr = lr * pow(0.9, epoch/50) 
         for param_group in optimizer.param_groups:
